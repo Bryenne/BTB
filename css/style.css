@@ -1,0 +1,145 @@
+body {
+    margin: 0;
+    background-color: #FFE8D4;
+}
+
+header {
+    background-color: #351D00;
+}
+
+h1{
+    font-family: cursive, sans-serif;
+    font-size: 4em;
+    color: #FFE8D4;
+    padding-left: 1em;
+    padding-right: 1em;
+}
+
+header h2{
+    align-self: center;
+    font-family: cursive, sans-serif;
+    font-size: 2em;
+    color: #FFE8D4;
+    padding-top: 17px;
+}
+
+h3{
+    font-size: 1.5em;
+    margin-left: 2em;
+    margin-top: 2em;
+    color: #341e00;
+    font-family: Tahoma, sans-serif;
+}
+nav{
+    width: 100%;
+    display: flex;
+}
+
+ul{
+    display: flex;
+    background-color: #4A2B00;
+    padding: 2em;
+    list-style: none;
+    margin: 0;
+}
+
+ul li{
+    padding-left: 2em;
+    padding-right: 2em;
+    font-family: sans-serif;
+    font-weight: 600;
+}
+
+ul li a{
+    text-decoration: none;
+    color: bisque;
+}
+
+a:hover{
+    color: #ffbb87;
+}
+a:active{
+    color: #8a5727;
+}
+
+main h2{
+    color: #4A2B00;
+    font-family: cursive;
+    font-size: 2.5em;
+    padding-left: 1em;
+    padding-bottom: 0.5em;
+    padding-top: 1em;
+    background-color: #FFD4B4;
+    margin: 0;
+}
+
+p{
+    font-family: Tahoma, Verdana, sans-serif;
+}
+
+main p{
+    font-size: 24px;
+    padding-left: 2em;
+    margin-right: 12em;
+    color: #351D00;
+}
+
+button{
+    font-size: 28px;
+    font-family: sans-serif;
+    font-weight: 600;
+    color: #FFE8D4;
+    background-color: #8a5727;
+    border-radius: 6px;
+    border: 0;
+    margin-left: 2em;
+    transition: all 350ms ease;
+}
+button:hover{
+    background-color: #341e00;
+    transform: scale(1.1);
+    color: #FFE8D4;
+}
+
+button:active{
+    color: #b87133;
+}
+
+.over div {
+    display: flex;
+    justify-content: center;
+}
+
+.over section{
+    padding: 10px;
+    background-color: #FFD4B4;
+    margin: 2em;
+    border: 3px color dotted brown;
+}
+
+.over p{
+    color: #351D00;
+    text-align: center;
+    width: 20em;
+    margin: 0;
+    font-size: 1.2em;
+    padding: 0;
+    padding-top: 1em;
+}
+.over img{
+    width: 20em;
+    padding-left: 10%;
+}
+
+.high{
+    display: flex;
+    background-color: #8a5727;
+}
+
+.hover_img{
+    transition: .5s;
+}
+
+.hover_img:hover{
+    box-shadow: 2px 2px 20px 2px rgb(245, 155, 81);
+}
